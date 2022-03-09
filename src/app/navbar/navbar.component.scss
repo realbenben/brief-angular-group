@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap");
+
+nav {
+  height: 80px;
+  background-color: #ffe500;
+  font-family: "Heebo", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+#cjc-logo {
+  max-height: 100%;
+  margin-left: 10px;
+}
+
+#cjc-acro-container {
+  margin: 10px 15px 10px 0px;
+  .cjc-acro-words {
+    &::first-letter {
+      font-weight: bold;
+    }
+  }
+}
+
+#oxy-logo {
+  max-height: 90%;
+  object-fit: contain;
+  position: relative;
+}
+
+#menu-container {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+  color: #0fa870;
+  font-weight: bold;
+  font-size: 26px;
+  .menu-item {
+    &:hover {
+      cursor: pointer;
+      color: #084e34;
+    }
+  }
+  .two-lines-item{
+    text-align: center;
+    font-size: 22px;
+  }
+}
