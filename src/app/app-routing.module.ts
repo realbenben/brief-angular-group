@@ -5,7 +5,8 @@ import {PRESENTATIONComponent} from './presentation/presentation.component';
 import {MissionsComponent} from './missions/missions.component';
 import { FormComponent } from './form/form.component';
 import {GalleryComponent} from './gallery/gallery.component';
-import { FooterComponent } from './footer/footer.component';
+import { ConsultationsAvanceComponent } from './consultations-avance/consultations-avance.component';
+import { AccompagnementComponent } from './accompagnement/accompagnement.component';
 
 const routerOptions: ExtraOptions = {
   scrollPositionRestoration: 'enabled',
@@ -29,6 +30,14 @@ const routes: Routes = [
   {
     path:'gallery',
     component : GalleryComponent,
+  },
+  {
+    path:'consultation',
+    component : ConsultationsAvanceComponent,
+  },
+  {
+    path:'accompagnement',
+    component : AccompagnementComponent,
   },
 ];
 
