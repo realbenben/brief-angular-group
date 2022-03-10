@@ -12,6 +12,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 
 import { SectionTitleComponent } from './section-title/section-title.component';
 import { ConsultationsAvanceComponent } from './consultations-avance/consultations-avance.component';
+import { AccompagnementComponent } from './accompagnement/accompagnement.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { ConsultationsAvanceComponent } from './consultations-avance/consultatio
 
     SectionTitleComponent,
      ConsultationsAvanceComponent,
+     AccompagnementComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
