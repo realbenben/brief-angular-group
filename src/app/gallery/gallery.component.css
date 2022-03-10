@@ -1,1 +1,14 @@
-/*# sourceMappingURL=gallery.component.css.map */
+.gal .gal-container-top {
+  padding-top: 5%;
+}
+.gal div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 5%;
+}
+.gal div img {
+  width: 400px;
+  height: 400px;
+}/*# sourceMappingURL=gallery.component.css.map */
