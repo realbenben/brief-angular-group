@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FormComponent } from './form/form.component';
 import { FooterComponent } from './footer/footer.component';
 import { MissionsComponent } from './missions/missions.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MissionsComponent } from './missions/missions.component';
     NavbarComponent,
     FormComponent,
     FooterComponent,
-    MissionsComponent
+    MissionsComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
