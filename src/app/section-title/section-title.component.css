@@ -2,9 +2,11 @@ h2 {
   font-family: "Heebo", sans-serif;
   background-color: #ffe500;
   color: #0fa870;
-  font-size: 25px;
+  font-size: 23px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   padding: 5px 10px;
   border-radius: 15px;
-  margin: 20px auto;
-}
+  margin: auto;
+}/*# sourceMappingURL=section-title.component.css.map */

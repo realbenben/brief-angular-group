@@ -1,65 +1,68 @@
-<form action="https://formspree.io/mdowjnre" method="POST">
-  <div class="">
-    <label>Nom </label>
-    <input
-      type="text"
-      id="name_field"
-      name="name_field"
-      required
-      placeholder="Votre nom"
-    />
-  </div>
-  <div class="">
-    <label for="name_field"> Prénom </label>
-    <input
-      type="text"
-      id="name_field"
-      name="name_field"
-      required
-      placeholder="votre prénom"
-    />
-  </div>
-  <div class="">
-    <label for="_replyto">Email</label>
-    <input
-      type="email"
-      id="_replyto"
-      name="_replyto"
-      required
-      placeholder="monmail@gmail.com"
-    />
-  </div>
-  <div class="">
-    <label for="_replyto">association/Société</label>
-    <input
-      type="email"
-      id="_replyto"
-      name="_replyto"
-      required
-      placeholder="monmail@gmail.com"
-    />
-  </div>
-  <div class="select">
-    <label for="select">motif :</label>
-    <select name="motif" id="form-select">
-      <option value="dog">Dog</option>
-      <option value="cat">Cat</option>
-      <option value="hamster">Hamster</option>
-      <option value="parrot">Parrot</option>
-      <option value="spider">Spider</option>
-      <option value="goldfish">Goldfish</option>
-    </select>
-  </div>
-  <div class="">
-    <label for="textarea_message">votre message</label>
-    <textarea
-      id="textarea_message"
-      name="textarea_message"
-      class="textarea"
-      placeholder="ecrivez-nous votre message"
-    ></textarea>
-  </div>
-  <div>
-    <button type="submit" class="nes-btn is-primary"></button>
-  </div>
-</form>
+<div class="form-container">
+  <app-section-title title="{{ title }}"></app-section-title>
+  <form action="https://formspree.io/mdowjnre" method="POST">
+    <div class="">
+      <label>Nom </label>
+      <input
+        type="text"
+        id="name_field"
+        name="name_field"
+        required
+        placeholder="Votre nom"
+      />
+    </div>
+    <div class="">
+      <label for="name_field"> Prénom </label>
+      <input
+        type="text"
+        id="name_field"
+        name="name_field"
+        required
+        placeholder="votre prénom"
+      />
+    </div>
+    <div class="">
+      <label for="_replyto">Email</label>
+      <input
+        type="email"
+        id="_replyto"
+        name="_replyto"
+        required
+        placeholder="monmail@gmail.com"
+      />
+    </div>
+    <div class="">
+      <label for="_replyto">association/Société</label>
+      <input
+        type="email"
+        id="_replyto"
+        name="_replyto"
+        required
+        placeholder="monmail@gmail.com"
+      />
+    </div>
+    <div class="select">
+      <label for="select">motif :</label>
+      <select name="motif" id="form-select">
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="hamster">Hamster</option>
+        <option value="parrot">Parrot</option>
+        <option value="spider">Spider</option>
+        <option value="goldfish">Goldfish</option>
+      </select>
+    </div>
+    <div class="">
+      <label for="textarea_message">votre message</label>
+      <textarea
+        id="textarea_message"
+        name="textarea_message"
+        class="textarea"
+        placeholder="ecrivez-nous votre message"
+      ></textarea>
+    </div>
+    <div>
+      <button type="submit" class="nes-btn is-primary"></button>
+    </div>
+  </form>
+</div>
