@@ -1,0 +1,16 @@
+.gal {
+  .gal-container-top {
+    padding-top: 5%;
+  }
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 5%;
+    img {
+      width: 400px;
+      height: 400px;
+    }
+  }
+}

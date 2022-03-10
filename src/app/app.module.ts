@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FormComponent } from './form/form.component';
 import { FooterComponent } from './footer/footer.component';
 import { MissionsComponent } from './missions/missions.component';
-
+import { PRESENTATIONComponent } from './presentation/presentation.component';
 import { GalleryComponent } from './gallery/gallery.component';
-
 import { SectionTitleComponent } from './section-title/section-title.component';
-
+import { ConsultationsAvanceComponent } from './consultations-avance/consultations-avance.component';
+import { AccompagnementComponent } from './accompagnement/accompagnement.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -20,17 +20,27 @@ import { SectionTitleComponent } from './section-title/section-title.component';
     FormComponent,
     FooterComponent,
     MissionsComponent,
+    PRESENTATIONComponent,
+    SectionTitleComponent,
 
+<<<<<<< HEAD
     GalleryComponent,
 
     SectionTitleComponent,
+=======
+     ConsultationsAvanceComponent,
+     AccompagnementComponent,
+>>>>>>> 3e8e63e6cc89310b0449fde20377f69475e8c0ef
 
+    GalleryComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule
+
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
