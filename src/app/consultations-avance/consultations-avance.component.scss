@@ -1,8 +1,9 @@
 .consult-container {
+  font-family: "Heebo", sans-serif;
   margin-bottom: 15%;
   .consult-part1 {
     margin-top: 5%;
-    height: 500px;
+    height: 400px;
     width: 800px;
     background-color: #baffb4;
     border-radius: 10%;
@@ -12,7 +13,7 @@
     -o-border-radius: 10%;
     opacity: 75%;
     .consult {
-      padding: 20% 10% 10% 10%;
+      padding: 10% 10% 10% 10%;
       font-size: large;
       font-weight: bold;
     }
@@ -48,7 +49,7 @@
     margin: auto;
     font-size: large;
     font-weight: bold;
-    height: 500px;
+    height: 400px;
     width: 800px;
     background-color: #baffb4;
     border-radius: 10%;
@@ -59,7 +60,7 @@
     opacity: 75%;
     margin-top: 5%;
     section {
-      padding: 20% 10% 10% 10%;
+      padding: 10% 10% 10% 10%;
     }
   }
 }
