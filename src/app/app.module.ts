@@ -6,11 +6,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FormComponent } from './form/form.component';
 import { FooterComponent } from './footer/footer.component';
 import { MissionsComponent } from './missions/missions.component';
-<<<<<<< HEAD
 import { PRESENTATIONComponent } from './presentation/presentation.component';
-=======
 import { GalleryComponent } from './gallery/gallery.component';
->>>>>>> fe8bc3eec7bf02269d57caaa2212622ae82abb4a
 import { SectionTitleComponent } from './section-title/section-title.component';
 import { RouterModule } from '@angular/router';
 
@@ -21,19 +18,15 @@ import { RouterModule } from '@angular/router';
     FormComponent,
     FooterComponent,
     MissionsComponent,
-<<<<<<< HEAD
     PRESENTATIONComponent,
     SectionTitleComponent,
+    GalleryComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-=======
-    GalleryComponent,
-    SectionTitleComponent,
->>>>>>> fe8bc3eec7bf02269d57caaa2212622ae82abb4a
+    AppRoutingModule,
+    RouterModule
   ],
-  imports: [BrowserModule, RouterModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })
