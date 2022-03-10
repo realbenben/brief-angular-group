@@ -1,0 +1,12 @@
+.form-container {
+  display: flex;
+  height: 800px;
+  width: 600px;
+  margin: auto;
+  background-color: blanchedalmond;
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}/*# sourceMappingURL=form.component.css.map */
