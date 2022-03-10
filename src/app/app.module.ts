@@ -21,9 +21,9 @@ import { SectionTitleComponent } from './section-title/section-title.component';
     FooterComponent,
     MissionsComponent,
 
-    GalleryComponent
+    GalleryComponent,
 
-    SectionTitleComponent
+    SectionTitleComponent,
 
   ],
   imports: [
