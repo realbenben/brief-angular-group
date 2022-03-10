@@ -17,6 +17,7 @@
     vertical-align: middle;
 }
 
+/*On sent ma frustartion de devoir rajouter des divs pour utiliser convenablement flex*/
 .Gneugneu img{
     margin: auto;
     
@@ -26,10 +27,14 @@
     display: block;
     margin: auto;
     width:33%;
+    background-color:rgba(255, 255, 181, 0.75);
+    border-radius: 15px;
+    padding: 10px 10px;
 }
 h3{
     display: block;
     margin: auto;
+    text-align: center;
     font-family:  "Heebo", sans-serif;
 
 }
@@ -40,7 +45,13 @@ table{
     display: block;
     text-align: center;
     align-items: center;
+    border: 3px solid #000;
+
 }
+th, td {
+    padding: 8px;
+}
+
 #Statement{
     margin: auto;
     display: block;
