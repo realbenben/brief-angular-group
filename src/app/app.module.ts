@@ -23,14 +23,11 @@ import { RouterModule } from '@angular/router';
     PRESENTATIONComponent,
     SectionTitleComponent,
 
-<<<<<<< HEAD
     GalleryComponent,
 
     SectionTitleComponent,
-=======
-     ConsultationsAvanceComponent,
-     AccompagnementComponent,
->>>>>>> 3e8e63e6cc89310b0449fde20377f69475e8c0ef
+    ConsultationsAvanceComponent,
+    AccompagnementComponent,
 
     GalleryComponent,
   ],
@@ -43,4 +40,4 @@ import { RouterModule } from '@angular/router';
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }
