@@ -8,6 +8,7 @@ import { FormComponent } from './form/form.component';
 import { FooterComponent } from './footer/footer.component';
 import { MissionsComponent } from './missions/missions.component';
 import { PRESENTATIONComponent } from './presentation/presentation.component';
+import { SectionTitleComponent } from './section-title/section-title.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PRESENTATIONComponent } from './presentation/presentation.component';
     FormComponent,
     FooterComponent,
     MissionsComponent,
-    PRESENTATIONComponent
+    PRESENTATIONComponent,
+    SectionTitleComponent,
   ],
   imports: [
     BrowserModule,
