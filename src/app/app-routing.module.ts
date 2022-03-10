@@ -1,6 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes, ExtraOptions } from '@angular/router';
-import { AppComponent } from './app.component';
+
+import {PRESENTATIONComponent} from './presentation/presentation.component';
+import {MissionsComponent} from './missions/missions.component';
+import { FormComponent } from './form/form.component';
+import {GalleryComponent} from './gallery/gallery.component';
+import { FooterComponent } from './footer/footer.component';
 
 const routerOptions: ExtraOptions = {
   scrollPositionRestoration: 'enabled',
@@ -10,14 +15,21 @@ const routerOptions: ExtraOptions = {
 
 const routes: Routes = [
   {
-    path:'content',
-    component : AppComponent,
+    path:'presentation',
+    component : PRESENTATIONComponent,
   },
   {
-    path:'',
-    redirectTo:'content',
-    pathMatch:'full'
-  }
+    path:'missions',
+    component : MissionsComponent,
+  },
+  {
+    path:'form',
+    component : FormComponent,
+  },
+  {
+    path:'gallery',
+    component : GalleryComponent,
+  },
 ];
 
 @NgModule({
