@@ -23,8 +23,11 @@ import { RouterModule } from '@angular/router';
     PRESENTATIONComponent,
     SectionTitleComponent,
 
-     ConsultationsAvanceComponent,
-     AccompagnementComponent,
+    GalleryComponent,
+
+    SectionTitleComponent,
+    ConsultationsAvanceComponent,
+    AccompagnementComponent,
 
     GalleryComponent,
   ],
@@ -37,4 +40,4 @@ import { RouterModule } from '@angular/router';
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }
