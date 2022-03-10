@@ -1,7 +1,7 @@
 .form-container {
   display: flex;
-  height: 660px;
-  width: 450px;
+  height: 670px;
+  width: 470px;
   margin: auto;
   background-color: #ffffb5;
   border-radius: 10%;
@@ -39,9 +39,8 @@
   height: 150px;
   width: 200px;
 }
-.form-container form div button {
+.form-container form div .nes-btn {
   position: absolute;
-  top: 141%;
   right: 39%;
   height: 40px;
   width: 90px;

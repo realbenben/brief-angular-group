@@ -9,6 +9,8 @@ import { MissionsComponent } from './missions/missions.component';
 import { PRESENTATIONComponent } from './presentation/presentation.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { SectionTitleComponent } from './section-title/section-title.component';
+import { ConsultationsAvanceComponent } from './consultations-avance/consultations-avance.component';
+import { AccompagnementComponent } from './accompagnement/accompagnement.component';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
@@ -20,12 +22,17 @@ import { RouterModule } from '@angular/router';
     MissionsComponent,
     PRESENTATIONComponent,
     SectionTitleComponent,
+
+     ConsultationsAvanceComponent,
+     AccompagnementComponent,
+
     GalleryComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule
+
   ],
   providers: [],
   bootstrap: [AppComponent],
