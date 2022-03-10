@@ -11,6 +11,7 @@ import { MissionsComponent } from './missions/missions.component';
 import { GalleryComponent } from './gallery/gallery.component';
 
 import { SectionTitleComponent } from './section-title/section-title.component';
+import { ConsultationsAvanceComponent } from './consultations-avance/consultations-avance.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { SectionTitleComponent } from './section-title/section-title.component';
     GalleryComponent,
 
     SectionTitleComponent,
+     ConsultationsAvanceComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
