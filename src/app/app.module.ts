@@ -12,7 +12,6 @@ import { GalleryComponent } from './gallery/gallery.component';
 
 import { SectionTitleComponent } from './section-title/section-title.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,16 +20,12 @@ import { SectionTitleComponent } from './section-title/section-title.component';
     FooterComponent,
     MissionsComponent,
 
-    GalleryComponent
+    GalleryComponent,
 
-    SectionTitleComponent
-
+    SectionTitleComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
