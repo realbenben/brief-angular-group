@@ -1,6 +1,7 @@
 .form-container {
+  font-family: "Heebo", sans-serif;
   display: flex;
-  height: 670px;
+  height: 700px;
   width: 470px;
   margin: auto;
   background-color: #ffffb5;
@@ -22,26 +23,30 @@
   margin-bottom: 5%;
 }
 .form-container form div label {
+  font-family: "Heebo", sans-serif;
   text-align: center;
   padding-bottom: 2%;
 }
 .form-container form div input {
+  font-family: "Heebo", sans-serif;
   background-color: #f98b41;
   text-align: center;
   padding: 5%;
   margin: 2%;
 }
 .form-container form div select {
+  font-family: "Heebo", sans-serif;
   background-color: #f98b41;
 }
 .form-container form div textarea {
+  font-family: "Heebo", sans-serif;
   background-color: #f98b41;
   height: 150px;
   width: 200px;
 }
 .form-container form div .nes-btn {
-  position: absolute;
-  right: 39%;
+  margin: auto;
+  font-family: "Heebo", sans-serif;
   height: 40px;
   width: 90px;
   background-color: #0fa870;
