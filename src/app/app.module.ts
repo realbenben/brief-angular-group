@@ -7,7 +7,11 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FormComponent } from './form/form.component';
 import { FooterComponent } from './footer/footer.component';
 import { MissionsComponent } from './missions/missions.component';
+
+import { GalleryComponent } from './gallery/gallery.component';
+
 import { SectionTitleComponent } from './section-title/section-title.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { SectionTitleComponent } from './section-title/section-title.component';
     FormComponent,
     FooterComponent,
     MissionsComponent,
+
+    GalleryComponent
+
     SectionTitleComponent
+
   ],
   imports: [
     BrowserModule,
