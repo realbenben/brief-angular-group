@@ -13,7 +13,7 @@
 
     #sectionA {
       padding: 15px;
-      background-color: #baffb4;
+      background-color: rgba(186, 255, 180, 0.9);
       width: 30%;
       font-size: 24px;
       font-weight: bold;
@@ -29,13 +29,13 @@
       justify-content: space-around;
       border-radius: 35px;
       padding: 15px;
-      background-color: #ffffb5;
+      background-color: rgba(255, 255, 181, 0.9);
       width: 40%;
     }
 
     #sectionC {
       padding: 20px;
-      background-color: #baffb4;
+      background-color: rgba(186, 255, 180, 0.9);
       width: 40%;
       font-size: 20px;
       border-radius: 35px;
@@ -62,7 +62,7 @@
         display: flex;
         border-radius: 35px;
         padding: 15px;
-        background-color: #ffffb5;
+        background-color: rgba(255, 255, 181, 0.9);
         width: 90%;
         text-align: center;
       }
