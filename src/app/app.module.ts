@@ -22,13 +22,10 @@ import { RouterModule } from '@angular/router';
     MissionsComponent,
     PRESENTATIONComponent,
     SectionTitleComponent,
-
     GalleryComponent,
-
     SectionTitleComponent,
     ConsultationsAvanceComponent,
     AccompagnementComponent,
-
     GalleryComponent,
   ],
   imports: [

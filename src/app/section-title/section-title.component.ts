@@ -7,6 +7,9 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class SectionTitleComponent implements OnInit {
 
+  // Hangover \o/
+  // Declaration of title variable coming from parent component
+
   @Input() title = "";
 
   constructor() { }

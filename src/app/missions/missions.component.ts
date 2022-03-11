@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MissionsComponent implements OnInit {
 
+  // title string to send to the section title component
   title = "Les missions de la CJC";
 
   constructor() { }

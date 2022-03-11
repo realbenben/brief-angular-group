@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes, ExtraOptions } from '@angular/router';
-
 import {PRESENTATIONComponent} from './presentation/presentation.component';
 import {MissionsComponent} from './missions/missions.component';
 import { FormComponent } from './form/form.component';
@@ -8,12 +7,15 @@ import {GalleryComponent} from './gallery/gallery.component';
 import { ConsultationsAvanceComponent } from './consultations-avance/consultations-avance.component';
 import { AccompagnementComponent } from './accompagnement/accompagnement.component';
 
+// Hangover \o/
+// Setting scrolling for internal anchor link
 const routerOptions: ExtraOptions = {
   scrollPositionRestoration: 'enabled',
   anchorScrolling: 'enabled',
   scrollOffset: [0, 64],
 };
 
+// Adding components path to router (to be honest, it's useless, just one route for the app component should be enough)
 const routes: Routes = [
   {
     path:'presentation',
@@ -38,9 +40,10 @@ const routes: Routes = [
   {
     path:'accompagnement',
     component : AccompagnementComponent,
-  },
+  }
 ];
 
+// Just adding "routerOptions"
 @NgModule({
   imports: [RouterModule.forRoot(routes, routerOptions)],
   exports: [RouterModule]
