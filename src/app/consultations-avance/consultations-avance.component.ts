@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./consultations-avance.component.scss'],
 })
 export class ConsultationsAvanceComponent implements OnInit {
-  title = 'consultations avancés';
+  title = 'Consultations Avancés';
   constructor() {}
 
   ngOnInit(): void {}

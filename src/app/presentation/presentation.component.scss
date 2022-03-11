@@ -15,6 +15,7 @@
 #Prez p{
     font-family:"Heebo", sans-serif;
     vertical-align: middle;
+    font-weight: bold;
 }
 
 /*On sent ma frustartion de devoir rajouter des divs pour utiliser convenablement flex*/
@@ -51,7 +52,8 @@ table{
 th, td {
     padding: 8px;
 }
-
+ /*Je suis assez fière de ce tableau:simple et efficace entièrement en HTML CSS!*/
+ 
 #Statement{
     margin: auto;
     display: block;
