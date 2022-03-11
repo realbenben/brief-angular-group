@@ -1,0 +1,70 @@
+#Prez{
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    background-color:rgba(186, 255, 180, 0.75);
+    border-radius: 15px;
+    padding: 10px 10px;
+    
+}
+.Enfin{
+    margin: auto;
+    display: flex;
+}
+#Prez p{
+    font-family:"Heebo", sans-serif;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+/*On sent ma frustartion de devoir rajouter des divs pour utiliser convenablement flex*/
+.Gneugneu img{
+    margin: auto;
+    
+}
+
+#Horaires{
+    display: block;
+    margin: auto;
+    width:33%;
+    background-color:rgba(255, 255, 181, 0.75);
+    border-radius: 15px;
+    padding: 10px 10px;
+}
+h3{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family:  "Heebo", sans-serif;
+
+}
+table{
+    font-family:"Heebo", sans-serif;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    text-align: center;
+    align-items: center;
+    border: 3px solid #000;
+
+}
+th, td {
+    padding: 8px;
+}
+ /*Je suis assez fière de ce tableau:simple et efficace entièrement en HTML CSS!*/
+ 
+#Statement{
+    margin: auto;
+    display: block;
+    background-color:rgba(186, 255, 180, 0.75);
+    border-radius: 15px;
+    padding: 5px 10px;
+    background-size: cover;
+    width:33%;
+}
+#Statement p{
+    text-align: center;
+    font-weight: bolder;
+    font-family:  "Heebo", sans-serif;
+}

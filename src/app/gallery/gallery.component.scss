@@ -1,0 +1,17 @@
+// ici le css est ecrit en less afin d'avoir une visibilité et d'eviter de classer tte les divs !
+.gal {
+  .gal-container-top {
+    padding-top: 5%;
+  }
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 5%;
+    img {
+      width: 400px;
+      height: 400px;
+    }
+  }
+}
